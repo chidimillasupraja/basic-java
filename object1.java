@@ -11,7 +11,7 @@ class Object1{
 		return "eating";
 	}
 	public static void main(String [] args){
-		Dog d1 = new Dog();
+		Object1 d1 = new Object1();
 		System.out.println(d1.walk());
 		System.out.println(time());
 		System.out.println(d1.eat());
